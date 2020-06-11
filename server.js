@@ -19,10 +19,10 @@ app.use(function (req, res, next) {
     res.setHeader("Access-Control-Allow-Headers", "*");
     next();
 });
-
+//Remove stars 
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIAJFWLHZQCQCTOTDHA',
-    secretAccessKey: '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'
+    accessKeyId: 'AKIA**JFWLHZQ**CQCTO**TDHA',
+    secretAccessKey: 'T6nb**96UyYQKB0kX5d**NdSKehILoL0o4i**1m575gimv'
 });
 
 
