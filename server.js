@@ -3,7 +3,6 @@ const AWS = require('aws-sdk');
 const express = require('express');
 const bodyParser = require('body-parser');
 var axios = require('axios');
-//var request = require('request');
 //var https = require('https');
 
 const app = express();
