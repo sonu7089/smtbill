@@ -20,8 +20,8 @@ app.use(function (req, res, next) {
 });
 //Remove stars 
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIA**JFWLHZQ**CQCTO**TDHA',
-    secretAccessKey: 'T6nb**96UyYQKB0kX5d**NdSKehILoL0o4i**1m575gimv'
+    accessKeyId: '',
+    secretAccessKey: ''
 });
 
 
